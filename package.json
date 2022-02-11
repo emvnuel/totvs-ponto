@@ -1,0 +1,16 @@
+{
+  "name": "totvs-ponto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emanuel Cerqueira",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.0"
+  }
+}

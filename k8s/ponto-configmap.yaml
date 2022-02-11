@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ponto-configmap
+data:
+  BASE_URL: 'https://meuapprh.ecorp.com.br'
+  USER: 'john.doe'
+  PASSWORD: 'pa$$w0rd'
+  LATITUDE: '-12.971021'
+  LONGITUDE: '-38.421282'
