@@ -14,8 +14,8 @@ spec:
               envFrom:
               - configMapRef:
                   name: ponto-configmap
-          restartPolicy: Never
-      backoffLimit: 0  
+          restartPolicy: OnFailure
+      backoffLimit: 1  
 ---
 
 apiVersion: batch/v1
@@ -34,8 +34,8 @@ spec:
               envFrom:
               - configMapRef:
                   name: ponto-configmap
-          restartPolicy: Never
-      backoffLimit: 0
+          restartPolicy: OnFailure
+      backoffLimit: 1
 ---
 
 apiVersion: batch/v1
@@ -54,8 +54,8 @@ spec:
               envFrom:
               - configMapRef:
                   name: ponto-configmap
-          restartPolicy: Never
-      backoffLimit: 0
+          restartPolicy: OnFailure
+      backoffLimit: 1
 ---
 
 apiVersion: batch/v1
@@ -74,5 +74,5 @@ spec:
               envFrom:
               - configMapRef:
                   name: ponto-configmap
-          restartPolicy: Never
-      backoffLimit: 0      
+          restartPolicy: OnFailure
+      backoffLimit: 1      
